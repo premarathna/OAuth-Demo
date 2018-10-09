@@ -10,7 +10,7 @@ Router.post('/access-token', (req, res) => {
         headers: {
             "content-type": "application/x-www-form-urlencoded",
         },
-        body: `grant_type=authorization_code&code=${req.body.code}&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Flogin-callback&client_id=78hs5mmix6hbc9&client_secret=hTVQ7KlhZczG2u9w`,
+        body: `grant_type=authorization_code&code=${req.body.code}&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Flogin-callback&client_id=819p99j7y3uowi&client_secret=wzRPEVDpXZXul361`,
         method: "POST",
     };
 
